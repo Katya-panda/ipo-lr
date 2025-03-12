@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 import os
 
-SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'default-secret-key')  # Укажите резервное значение
+SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'default-secret-key')  
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
